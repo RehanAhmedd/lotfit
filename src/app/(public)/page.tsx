@@ -14,7 +14,7 @@ export default async function IndexPage() {
       <Image
         width={1920}
         height={500}
-        src={lotfitImg}
+        src={"https://res.cloudinary.com/dk42l62mv/image/upload/v1762541622/lotfit.jpg"}
         alt="Fruite Banner"
         className="w-full h-auto "
       />
