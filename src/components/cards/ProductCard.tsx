@@ -107,9 +107,10 @@ const ProductCard = ({ product }: Props) => {
 
         <div className="flex items-center">
           // ProductCard.tsx (Lines 114-118 - Corrected)
+          // Inside ProductCard.tsx (Around line 114)
           <div className="flex -mx-0.5 ">
             {[...Array(3)].map((_, idx) => (
-              <div key={idx} className="w-3.5 lg:w-4 h-3.5 lg:h-4 mx-0.5"> </div> // **FIX: Added key={idx}**
+              <div key={idx} className="w-3.5 lg:w-4 h-3.5 lg:h-4 mx-0.5"> </div> // <-- ADDED key={idx}
             ))}
           </div>
           <p className="text-sm ml-3">
